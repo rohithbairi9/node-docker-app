@@ -27,7 +27,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                sh 'sudo docker push rohith1729/node-docker-app:${BUILD_NUMBER}'
+                sh 'echo "rgukt123" | sudo -S docker push rohith1729/node-docker-app:4'
             }
         }
         
