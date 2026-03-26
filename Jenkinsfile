@@ -27,7 +27,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                sh 'echo "rgukt123" | sudo -S docker push rohith1729/node-docker-app:4'
+                sh 'sudo docker push rohith1729/node-docker-app:4'
             }
         }
         
